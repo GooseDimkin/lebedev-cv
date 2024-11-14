@@ -169,37 +169,32 @@ function App() {
       </motion.div>
 
       <section className={styles.projects}>
-        <motion.div
-          initial={{ opacity: 0, y: 150 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.3, delay: 0.2 }}
-          viewport={{ once: true }}
-        >
-          <h2>Projects experience</h2>
-        </motion.div>
         {projects.map((project, index) => (
           <motion.div
             key={index}
-            className={styles.projectCard}
             initial={{ opacity: 0, y: 200 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: index * 0.2 }}
             viewport={{ once: true }}
+            className={styles.projectSection}
           >
-            <Slider {...sliderSettings}>
-              {project.images.map((el) => (
-                <img
-                  src={el}
-                  alt="project screenshot"
-                  className={styles.projectImage}
-                />
-              ))}
-            </Slider>
-            <h3>{project.title}</h3>
-            <a href={project.url} target="_blank" rel="noopener noreferrer">
-              {project.url}
-            </a>
-            <p>{project.description}</p>
+            <h2>Projects experience</h2>
+            <div className={styles.projectCard}>
+              <Slider {...sliderSettings}>
+                {project.images.map((el) => (
+                  <img
+                    src={el}
+                    alt="project screenshot"
+                    className={styles.projectImage}
+                  />
+                ))}
+              </Slider>
+              <h3>{project.title}</h3>
+              <a href={project.url} target="_blank" rel="noopener noreferrer">
+                {project.url}
+              </a>
+              <p>{project.description}</p>
+            </div>
           </motion.div>
         ))}
       </section>

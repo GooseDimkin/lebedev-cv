@@ -75,11 +75,6 @@ body {
   text-align: center;
 }
 
-.projects h2 {
-  font-size: 2em;
-  margin-bottom: 20px;
-}
-
 .project-slide {
   padding: 20px;
   text-align: center;
@@ -145,4 +140,16 @@ body {
 .projectCard p {
   font-size: 1em;
   color: #555;
+}
+
+.projectSection h2 {
+  display: none;
+}
+
+.projectSection:nth-child(1) {
+  h2 {
+    display: block;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
 }
