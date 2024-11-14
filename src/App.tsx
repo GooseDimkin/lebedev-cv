@@ -5,30 +5,24 @@ import styles from "./App.module.scss";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import profilePicture from "src/assets/profilePicture.jpg";
+import leadQuiz1 from "src/assets/projects/leadQuiz/leadQuiz1.jpg";
+import leadQuiz2 from "src/assets/projects/leadQuiz/leadQuiz2.jpg";
 
 const projects = [
   {
-    images: [
-      "assets/projects/leadQuiz/leadQuiz1.jpg",
-      "assets/projects/leadQuiz/leadQuiz2.jpg",
-    ],
+    images: [leadQuiz1, leadQuiz2],
     title: "LeadQuiz",
     description:
       "https://leadquiz.com/ As a front-end developer, I developed a website that allows users to generate survey forms. Buy subscriptions. And the owner of the site has administrator rights and access to the admin page to edit and add new templates for forms, create or edit new plans for subscriptions. The stack of technologies that I used is: JavaScript, TypeScript, Redux, REST API, Stripe.",
   },
   {
-    images: [
-      "assets/projects/leadQuiz/leadQuiz1.jpg",
-      "assets/projects/leadQuiz/leadQuiz2.jpg",
-    ],
+    images: [leadQuiz1, leadQuiz1],
     title: "",
     description: "",
   },
   {
-    images: [
-      "assets/projects/leadQuiz/leadQuiz1.jpg",
-      "assets/projects/leadQuiz/leadQuiz2.jpg",
-    ],
+    images: [leadQuiz1, leadQuiz1],
     title: "",
     description: "",
   },
@@ -76,7 +70,7 @@ function App() {
 
       <section className={styles.about}>
         <img
-          src="assets/profilePicture.jpg"
+          src={profilePicture}
           alt="Dmitry Lebedev"
           className={styles.profilePhoto}
         />
@@ -134,9 +128,16 @@ function App() {
         </section>
       </motion.div>
 
-      <footer className={styles.footer}>
-        <p>© 2024 Dmitry Lebedev. All rights reserved.</p>
-      </footer>
+      <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.2 }}
+        viewport={{ once: true }}
+      >
+        <footer className={styles.footer}>
+          <p>© 2024 Dmitry Lebedev. All rights reserved.</p>
+        </footer>
+      </motion.div>
     </div>
   );
 }
