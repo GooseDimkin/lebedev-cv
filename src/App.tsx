@@ -66,21 +66,30 @@ const projects = [
     description:
       "I created a react components for project. As always, I worked with the team, and we are used GitHub for version controls of project. At that stage of developing, there wasn't any backend connections, so main tasks was making front side styling. For styling the components, client wanted us to use Styled Components technology. All technologies that was included to the project: React.js, TypeScript, Styled components.",
   },
-  {
-    images: [leadQuiz1, leadQuiz1],
-    title: "",
-    description: "",
-  },
 ];
 
 const skills = [
-  "JavaScript",
-  "React",
+  "English: upper intermediate (B2)",
+  "React.js",
+  "React Native",
+  "React-Router",
   "Redux",
+  "Next.js",
+  "JavaScript",
+  "TypeScript",
+  "Socket.io",
   "HTML",
   "CSS",
-  "Node.js",
+  "module CSS",
+  "SCSS",
+  "Tailwind CSS",
+  "Flux architecture",
+  "SPA",
   "Git",
+  "REST API",
+  "react-force-fraph",
+  "Strapi",
+  "BEM",
 ];
 
 const sliderSettings = {
@@ -141,8 +150,33 @@ function App() {
         </p>
       </section>
 
+      <motion.div
+        initial={{ opacity: 0, y: 200 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.2 }}
+        viewport={{ once: true }}
+      >
+        <section className={styles.skills}>
+          <h2>Skills</h2>
+          <div className={styles.skillsList}>
+            {skills.map((skill, index) => (
+              <span key={index} className={styles.skill}>
+                {skill}
+              </span>
+            ))}
+          </div>
+        </section>
+      </motion.div>
+
       <section className={styles.projects}>
-        <h2>Projects experience</h2>
+        <motion.div
+          initial={{ opacity: 0, y: 150 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+          viewport={{ once: true }}
+        >
+          <h2>Projects experience</h2>
+        </motion.div>
         {projects.map((project, index) => (
           <motion.div
             key={index}
@@ -169,24 +203,6 @@ function App() {
           </motion.div>
         ))}
       </section>
-
-      <motion.div
-        initial={{ opacity: 0, y: 200 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, delay: 0.2 }}
-        viewport={{ once: true }}
-      >
-        <section className={styles.skills}>
-          <h2>Skills</h2>
-          <div className={styles.skillsList}>
-            {skills.map((skill, index) => (
-              <span key={index} className={styles.skill}>
-                {skill}
-              </span>
-            ))}
-          </div>
-        </section>
-      </motion.div>
     </div>
   );
 }
