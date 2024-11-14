@@ -8,13 +8,33 @@ import "slick-carousel/slick/slick-theme.css";
 import profilePicture from "src/assets/profilePicture.jpg";
 import leadQuiz1 from "src/assets/projects/leadQuiz/leadQuiz1.jpg";
 import leadQuiz2 from "src/assets/projects/leadQuiz/leadQuiz2.jpg";
+import leadQuiz3 from "src/assets/projects/leadQuiz/leadQuiz3.jpg";
+import leadQuiz4 from "src/assets/projects/leadQuiz/leadQuiz4.jpg";
+import leadQuiz5 from "src/assets/projects/leadQuiz/leadQuiz5.jpg";
+import leadQuiz6 from "src/assets/projects/leadQuiz/leadQuiz6.jpg";
+import leadQuiz7 from "src/assets/projects/leadQuiz/leadQuiz7.jpg";
+import leadQuiz8 from "src/assets/projects/leadQuiz/leadQuiz8.jpg";
+import leadQuiz9 from "src/assets/projects/leadQuiz/leadQuiz9.jpg";
+import leadQuiz10 from "src/assets/projects/leadQuiz/leadQuiz10.jpg";
 
 const projects = [
   {
-    images: [leadQuiz1, leadQuiz2],
+    images: [
+      leadQuiz1,
+      leadQuiz2,
+      leadQuiz3,
+      leadQuiz4,
+      leadQuiz5,
+      leadQuiz6,
+      leadQuiz7,
+      leadQuiz8,
+      leadQuiz9,
+      leadQuiz10,
+    ],
     title: "LeadQuiz",
+    url: "https://leadquiz.com",
     description:
-      "https://leadquiz.com/ As a front-end developer, I developed a website that allows users to generate survey forms. Buy subscriptions. And the owner of the site has administrator rights and access to the admin page to edit and add new templates for forms, create or edit new plans for subscriptions. The stack of technologies that I used is: JavaScript, TypeScript, Redux, REST API, Stripe.",
+      "As a front-end developer, I developed a website that allows users to generate survey forms. Buy subscriptions. And the owner of the site has administrator rights and access to the admin page to edit and add new templates for forms, create or edit new plans for subscriptions. The stack of technologies that I used: JavaScript, TypeScript, Redux, REST API, Stripe.",
   },
   {
     images: [leadQuiz1, leadQuiz1],
@@ -117,6 +137,9 @@ function App() {
               ))}
             </Slider>
             <h3>{project.title}</h3>
+            <a href={project.url} target="_blank" rel="noopener noreferrer">
+              {project.url}
+            </a>
             <p>{project.description}</p>
           </motion.div>
         ))}
