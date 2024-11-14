@@ -1,22 +1,40 @@
 {
   "files": {
-    "main.css": "/lebedev-cv/static/css/main.f7bb55fe.css",
-    "main.js": "/lebedev-cv/static/js/main.4c19248b.js",
-    "static/js/453.47a9dc39.chunk.js": "/lebedev-cv/static/js/453.47a9dc39.chunk.js",
+    "main.css": "/lebedev-cv/static/css/main.53184df0.css",
+    "main.js": "/lebedev-cv/static/js/main.e7d3fae9.js",
+    "static/js/453.b62c9ac2.chunk.js": "/lebedev-cv/static/js/453.b62c9ac2.chunk.js",
+    "static/media/untapped1.jpg": "/lebedev-cv/static/media/untapped1.efa30d6a1a0b678a9dd6.jpg",
+    "static/media/untapped10.jpg": "/lebedev-cv/static/media/untapped10.e0451c2fd951bf5f2e04.jpg",
+    "static/media/untapped4.jpg": "/lebedev-cv/static/media/untapped4.8db0dbb73d629a30e5e0.jpg",
+    "static/media/untapped9.jpg": "/lebedev-cv/static/media/untapped9.613069cc00466d8dd590.jpg",
+    "static/media/untapped2.jpg": "/lebedev-cv/static/media/untapped2.fbb918e164a6cac409e7.jpg",
+    "static/media/untapped3.jpg": "/lebedev-cv/static/media/untapped3.87c1cdeb40e5f82ffb34.jpg",
+    "static/media/untapped6.jpg": "/lebedev-cv/static/media/untapped6.132acf0910d9be548730.jpg",
+    "static/media/leadQuiz5.jpg": "/lebedev-cv/static/media/leadQuiz5.683f27469879e39eef35.jpg",
     "static/media/leadQuiz2.jpg": "/lebedev-cv/static/media/leadQuiz2.55180644b2447081e183.jpg",
+    "static/media/leadQuiz4.jpg": "/lebedev-cv/static/media/leadQuiz4.b31d2399ea38540b9519.jpg",
     "static/media/leadQuiz1.jpg": "/lebedev-cv/static/media/leadQuiz1.bdce366fa04af9da4ee6.jpg",
+    "static/media/untapped8.jpg": "/lebedev-cv/static/media/untapped8.befefef7aed1167bf5fa.jpg",
+    "static/media/untapped5.jpg": "/lebedev-cv/static/media/untapped5.6046af6d43f265034203.jpg",
+    "static/media/leadQuiz3.jpg": "/lebedev-cv/static/media/leadQuiz3.a2279ab5f007c2c0eeff.jpg",
+    "static/media/untapped7.jpg": "/lebedev-cv/static/media/untapped7.f6b3c854048532ac9be1.jpg",
+    "static/media/leadQuiz8.jpg": "/lebedev-cv/static/media/leadQuiz8.8c2211286b37384678d0.jpg",
+    "static/media/leadQuiz7.jpg": "/lebedev-cv/static/media/leadQuiz7.8ad0b31da2d4864804bf.jpg",
+    "static/media/leadQuiz10.jpg": "/lebedev-cv/static/media/leadQuiz10.35220441f845686d1886.jpg",
+    "static/media/leadQuiz9.jpg": "/lebedev-cv/static/media/leadQuiz9.14ee4d13d0bd65a57f0c.jpg",
+    "static/media/leadQuiz6.jpg": "/lebedev-cv/static/media/leadQuiz6.ccddd80ccc1eca03b95d.jpg",
     "static/media/profilePicture.jpg": "/lebedev-cv/static/media/profilePicture.a05d613e31e50a519d13.jpg",
     "static/media/slick.svg": "/lebedev-cv/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/lebedev-cv/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/lebedev-cv/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/lebedev-cv/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/lebedev-cv/index.html",
-    "main.f7bb55fe.css.map": "/lebedev-cv/static/css/main.f7bb55fe.css.map",
-    "main.4c19248b.js.map": "/lebedev-cv/static/js/main.4c19248b.js.map",
-    "453.47a9dc39.chunk.js.map": "/lebedev-cv/static/js/453.47a9dc39.chunk.js.map"
+    "main.53184df0.css.map": "/lebedev-cv/static/css/main.53184df0.css.map",
+    "main.e7d3fae9.js.map": "/lebedev-cv/static/js/main.e7d3fae9.js.map",
+    "453.b62c9ac2.chunk.js.map": "/lebedev-cv/static/js/453.b62c9ac2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7bb55fe.css",
-    "static/js/main.4c19248b.js"
+    "static/css/main.53184df0.css",
+    "static/js/main.e7d3fae9.js"
   ]
 }
