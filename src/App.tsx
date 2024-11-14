@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTelegram } from "react-icons/fa";
 import styles from "./App.module.scss";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -56,14 +56,26 @@ function App() {
         <h1>Dmitry Lebedev</h1>
         <p>Middle+ Frontend Developer | React JS / Next JS Specialist</p>
         <div className={styles.socialIcons}>
-          <a href="https://github.com/yourprofile">
+          <a
+            href="https://github.com/GooseDimkin"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaGithub />
           </a>
-          <a href="https://linkedin.com/in/yourprofile">
+          <a
+            href="https://www.linkedin.com/in/gustav-lebedev/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaLinkedin />
           </a>
-          <a href="https://twitter.com/yourprofile">
-            <FaTwitter />
+          <a
+            href="https://t.me/real_gustav"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaTelegram />
           </a>
         </div>
       </section>
@@ -117,7 +129,7 @@ function App() {
         viewport={{ once: true }}
       >
         <section className={styles.skills}>
-          <h2>Навыки</h2>
+          <h2>Skills</h2>
           <div className={styles.skillsList}>
             {skills.map((skill, index) => (
               <span key={index} className={styles.skill}>
@@ -126,17 +138,6 @@ function App() {
             ))}
           </div>
         </section>
-      </motion.div>
-
-      <motion.div
-        initial={{ opacity: 0, y: 50 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, delay: 0.2 }}
-        viewport={{ once: true }}
-      >
-        <footer className={styles.footer}>
-          <p>© 2024 Dmitry Lebedev. All rights reserved.</p>
-        </footer>
       </motion.div>
     </div>
   );
