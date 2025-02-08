@@ -1,3 +1,5 @@
+@import "/src/styles/variables";
+
 .wrapper {
   text-align: center;
   margin: 50px 0;
@@ -15,7 +17,7 @@
 }
 
 .skill {
-  background: #f3f3f3;
+  background: $skillsBackgroundColor;
   margin: 5px;
   padding: 10px 20px;
   border-radius: 8px;

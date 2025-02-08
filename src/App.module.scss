@@ -1,3 +1,5 @@
+@import "/src/styles/variables";
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,8 +8,8 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
+  background-color: $lightBackgroundColor;
+  color: $greyFontColor;
 }
 
 .wrapper {
@@ -16,7 +18,7 @@ body {
   padding: 20px;
 
   a {
-    color: rgb(78, 78, 199);
+    color: $linkColor;
     text-decoration: none;
   }
 }
