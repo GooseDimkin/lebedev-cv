@@ -29,6 +29,13 @@ import untapped8 from "src/assets/projects/untapped/untapped8.jpg";
 import untapped9 from "src/assets/projects/untapped/untapped9.jpg";
 import untapped10 from "src/assets/projects/untapped/untapped10.jpg";
 
+import meshconomy1 from "src/assets/projects/meshconomy/meshconomy1.jpg";
+import meshconomy2 from "src/assets/projects/meshconomy/meshconomy2.jpg";
+import meshconomy3 from "src/assets/projects/meshconomy/meshconomy3.jpg";
+import meshconomy4 from "src/assets/projects/meshconomy/meshconomy4.jpg";
+import meshconomy5 from "src/assets/projects/meshconomy/meshconomy5.jpg";
+import meshconomy6 from "src/assets/projects/meshconomy/meshconomy6.jpg";
+
 const projects = [
   {
     images: [
@@ -65,6 +72,20 @@ const projects = [
     url: "https://untapped-global.com",
     description:
       "I created a react components for project. As always, I worked with the team, and we are used GitHub for version controls of project. At that stage of developing, there wasn't any backend connections, so main tasks was making front side styling. For styling the components, client wanted us to use Styled Components technology. All technologies that was included to the project: React.js, TypeScript, Styled components.",
+  },
+  {
+    images: [
+      meshconomy1,
+      meshconomy2,
+      meshconomy3,
+      meshconomy4,
+      meshconomy5,
+      meshconomy6,
+    ],
+    title: "Meshconomy Maps",
+    url: "https://demo-meshconomy.wtt-solutions.net/",
+    description:
+      'For one Israel company, named "Meshconomy Maps", I created a data visualisation of companies, using react-force-graph library. It gets data from beck-end, by using API requests (axios), and shows the draggable circles, in map style. By pressing on category-circle it opens another circle... In this project I used React.js, JavaScript, react-force-graph, axios and module.css.',
   },
 ];
 
@@ -174,7 +195,7 @@ function App() {
             key={index}
             initial={{ opacity: 0, y: 200 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: index * 0.2 }}
+            transition={{ duration: 0.5, delay: 0.5 }}
             viewport={{ once: true }}
             className={styles.projectSection}
           >
