@@ -1,0 +1,15 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+
+  div {
+    max-height: 600px;
+    max-width: 500px;
+  }
+}

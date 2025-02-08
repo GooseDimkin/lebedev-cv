@@ -8,6 +8,7 @@ import Hero from "./components/hero/hero";
 import About from "./components/about/about";
 import Skills from "./components/skills/skills";
 import Projects from "./components/projects/projects";
+import MoreAboutMe from "./components/moreAboutMe/moreAboutMe";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
         <Skills />
       </motion.div>
       <Projects />
+      <MoreAboutMe />
     </div>
   );
 };
