@@ -1,0 +1,23 @@
+.wrapper {
+  text-align: center;
+  margin: 50px 0;
+
+  h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+}
+
+.skillsList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill {
+  background: #f3f3f3;
+  margin: 5px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 1em;
+}
