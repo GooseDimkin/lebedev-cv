@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lebedev-cv/static/css/main.eab913a1.css",
-    "main.js": "/lebedev-cv/static/js/main.da1666b4.js",
+    "main.js": "/lebedev-cv/static/js/main.de32d0dd.js",
     "static/js/453.b62c9ac2.chunk.js": "/lebedev-cv/static/js/453.b62c9ac2.chunk.js",
     "static/media/untapped1.jpg": "/lebedev-cv/static/media/untapped1.efa30d6a1a0b678a9dd6.jpg",
     "static/media/untapped10.jpg": "/lebedev-cv/static/media/untapped10.e0451c2fd951bf5f2e04.jpg",
@@ -19,9 +19,15 @@
     "static/media/leadQuiz3.jpg": "/lebedev-cv/static/media/leadQuiz3.a2279ab5f007c2c0eeff.jpg",
     "static/media/untapped7.jpg": "/lebedev-cv/static/media/untapped7.f6b3c854048532ac9be1.jpg",
     "static/media/leadQuiz8.jpg": "/lebedev-cv/static/media/leadQuiz8.8c2211286b37384678d0.jpg",
+    "static/media/meshconomy6.jpg": "/lebedev-cv/static/media/meshconomy6.c94f5da201d0d8a89a8c.jpg",
     "static/media/leadQuiz7.jpg": "/lebedev-cv/static/media/leadQuiz7.8ad0b31da2d4864804bf.jpg",
     "static/media/leadQuiz10.jpg": "/lebedev-cv/static/media/leadQuiz10.35220441f845686d1886.jpg",
+    "static/media/meshconomy4.jpg": "/lebedev-cv/static/media/meshconomy4.5b6c9e7e5c1707d879fa.jpg",
+    "static/media/meshconomy2.jpg": "/lebedev-cv/static/media/meshconomy2.9ffb0283f3cd94fd4462.jpg",
+    "static/media/meshconomy5.jpg": "/lebedev-cv/static/media/meshconomy5.ecce893806e5bfc5e7e7.jpg",
     "static/media/leadQuiz9.jpg": "/lebedev-cv/static/media/leadQuiz9.14ee4d13d0bd65a57f0c.jpg",
+    "static/media/meshconomy3.jpg": "/lebedev-cv/static/media/meshconomy3.2d9dde78154737f1af6a.jpg",
+    "static/media/meshconomy1.jpg": "/lebedev-cv/static/media/meshconomy1.7cee1fe6b248266548ec.jpg",
     "static/media/leadQuiz6.jpg": "/lebedev-cv/static/media/leadQuiz6.ccddd80ccc1eca03b95d.jpg",
     "static/media/profilePicture.jpg": "/lebedev-cv/static/media/profilePicture.a05d613e31e50a519d13.jpg",
     "static/media/slick.svg": "/lebedev-cv/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -30,11 +36,11 @@
     "static/media/slick.woff": "/lebedev-cv/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/lebedev-cv/index.html",
     "main.eab913a1.css.map": "/lebedev-cv/static/css/main.eab913a1.css.map",
-    "main.da1666b4.js.map": "/lebedev-cv/static/js/main.da1666b4.js.map",
+    "main.de32d0dd.js.map": "/lebedev-cv/static/js/main.de32d0dd.js.map",
     "453.b62c9ac2.chunk.js.map": "/lebedev-cv/static/js/453.b62c9ac2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eab913a1.css",
-    "static/js/main.da1666b4.js"
+    "static/js/main.de32d0dd.js"
   ]
 }
