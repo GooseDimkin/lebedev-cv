@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/lebedev-cv/static/css/main.eab913a1.css",
-    "main.js": "/lebedev-cv/static/js/main.de32d0dd.js",
+    "main.css": "/lebedev-cv/static/css/main.34975e3d.css",
+    "main.js": "/lebedev-cv/static/js/main.0de88e6d.js",
     "static/js/453.b62c9ac2.chunk.js": "/lebedev-cv/static/js/453.b62c9ac2.chunk.js",
     "static/media/untapped1.jpg": "/lebedev-cv/static/media/untapped1.efa30d6a1a0b678a9dd6.jpg",
     "static/media/untapped10.jpg": "/lebedev-cv/static/media/untapped10.e0451c2fd951bf5f2e04.jpg",
@@ -16,10 +16,12 @@
     "static/media/leadQuiz1.jpg": "/lebedev-cv/static/media/leadQuiz1.bdce366fa04af9da4ee6.jpg",
     "static/media/untapped8.jpg": "/lebedev-cv/static/media/untapped8.befefef7aed1167bf5fa.jpg",
     "static/media/untapped5.jpg": "/lebedev-cv/static/media/untapped5.6046af6d43f265034203.jpg",
+    "static/media/withHairs.jpg": "/lebedev-cv/static/media/withHairs.6a91a7143bc0c236fb76.jpg",
     "static/media/leadQuiz3.jpg": "/lebedev-cv/static/media/leadQuiz3.a2279ab5f007c2c0eeff.jpg",
     "static/media/untapped7.jpg": "/lebedev-cv/static/media/untapped7.f6b3c854048532ac9be1.jpg",
     "static/media/leadQuiz8.jpg": "/lebedev-cv/static/media/leadQuiz8.8c2211286b37384678d0.jpg",
     "static/media/meshconomy6.jpg": "/lebedev-cv/static/media/meshconomy6.c94f5da201d0d8a89a8c.jpg",
+    "static/media/withoutHairs.jpg": "/lebedev-cv/static/media/withoutHairs.481214e2a8e98428627f.jpg",
     "static/media/leadQuiz7.jpg": "/lebedev-cv/static/media/leadQuiz7.8ad0b31da2d4864804bf.jpg",
     "static/media/leadQuiz10.jpg": "/lebedev-cv/static/media/leadQuiz10.35220441f845686d1886.jpg",
     "static/media/meshconomy4.jpg": "/lebedev-cv/static/media/meshconomy4.5b6c9e7e5c1707d879fa.jpg",
@@ -35,12 +37,12 @@
     "static/media/slick.ttf": "/lebedev-cv/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/lebedev-cv/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/lebedev-cv/index.html",
-    "main.eab913a1.css.map": "/lebedev-cv/static/css/main.eab913a1.css.map",
-    "main.de32d0dd.js.map": "/lebedev-cv/static/js/main.de32d0dd.js.map",
+    "main.34975e3d.css.map": "/lebedev-cv/static/css/main.34975e3d.css.map",
+    "main.0de88e6d.js.map": "/lebedev-cv/static/js/main.0de88e6d.js.map",
     "453.b62c9ac2.chunk.js.map": "/lebedev-cv/static/js/453.b62c9ac2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eab913a1.css",
-    "static/js/main.de32d0dd.js"
+    "static/css/main.34975e3d.css",
+    "static/js/main.0de88e6d.js"
   ]
 }
